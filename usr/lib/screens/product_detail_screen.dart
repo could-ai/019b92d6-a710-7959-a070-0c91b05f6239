@@ -22,7 +22,7 @@ class ProductDetailScreen extends StatelessWidget {
             const SizedBox(height: 16),
             Text(product.name, style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
             Text(product.description),
-            Text('$${product.price}', style: const TextStyle(fontSize: 20, color: Colors.green)),
+            Text('\$${product.price}', style: const TextStyle(fontSize: 20, color: Colors.green)),
             const Spacer(),
             ElevatedButton(
               onPressed: () {

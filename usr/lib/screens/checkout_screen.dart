@@ -35,7 +35,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
           key: _formKey,
           child: Column(
             children: [
-              Text('Total: $${cartProvider.totalPrice}'),
+              Text('Total: \$${cartProvider.totalPrice}'),
               TextFormField(validator: (value) => value!.isEmpty ? 'Required' : null, decoration: const InputDecoration(labelText: 'Name')),
               TextFormField(validator: (value) => value!.isEmpty ? 'Required' : null, decoration: const InputDecoration(labelText: 'Address')),
               DropdownButtonFormField(
